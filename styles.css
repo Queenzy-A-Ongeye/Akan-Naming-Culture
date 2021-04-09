@@ -1,0 +1,16 @@
+header{
+    background-image: url(aak.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:700px;
+}
+#kan{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+/* body{
+    background-image: linear-gradient(to top left,navajowhite, #ddd);
+
+} */
