@@ -12,18 +12,24 @@ body {
 #kan {
   align-items: center;
   justify-content: center;
-  color: white;
+  color: black;
   text-align: center;
 }
 .slide {
   padding-top: 5px;
   margin: 3px;
-  background: rgba(223, 216, 216, 0.514);
-  background-blend-mode: lighten;
+  /* background: rgba(223, 216, 216, 0.514);
+  background-blend-mode: lighten; */
   align-items: flex-start;
 }
-.input-field{
-    padding: 2px;
-    margin-top: 3px;
-    width: 100px;
+.input-field {
+  padding: 2px;
+  margin-top: 3px;
+  width: 100px;
+}
+#header {
+  background: rgba(223, 216, 216, 0.514);
+  background-blend-mode: lighten;
+  padding-bottom: 40px;
+  margin-top: 70px;
 }
