@@ -15,7 +15,15 @@ body {
   color: white;
   text-align: center;
 }
-/* body{
-    background-image: linear-gradient(to top left,navajowhite, #ddd);
-
-} */
+.slide {
+  padding-top: 5px;
+  margin: 3px;
+  background: rgba(223, 216, 216, 0.514);
+  background-blend-mode: lighten;
+  align-items: flex-start;
+}
+.input-field{
+    padding: 2px;
+    margin-top: 3px;
+    width: 100px;
+}
