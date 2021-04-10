@@ -15,10 +15,9 @@
         <div class="card" id="header">
             <div class="card-title">
                 <div id="kan">
-                    <h1>Akan Culture.</h1>
-                    <p>Our Ghanian app offers you the chance to see the day of your
-                        were born and what day your name matches with.
-                    </p>
+                    <h1>Akan Naming Culture.</h1>
+                    <p>The Akan people of Ghana name their children after the day of the week they were born.</p>
+                    <p>These "day names" have further meanings concerning the soul and character of the person. </p>
                 </div>
             </div>
             <div class="card-body">
@@ -26,16 +25,20 @@
                     <div class="slide">
                         <div class="input-field">
                             <div>
-                                <label for="date">Date</label>
-                                <input type="text" class="control" id="date" required>
-                            </div>
-                            <div>
-                                <label for="month">Month</label>
-                                <input type="text" class="control" id="month" required>
+                                <label for="century">Century</label>
+                                <input type="number" class="control" id="century" name="century"required>
                             </div>
                             <div>
                                 <label for="year">Year</label>
-                                <input type="text" class="control" id="year" required>
+                                <input type="text" class="control" id="year" name="year"required>
+                            </div>
+                            <div>
+                                <label for="month">Month</label>
+                                <input type="text" class="control" id="month" name="month"required>
+                            </div>
+                            <div>
+                                <label for="date">Date</label>
+                                <input type="text " class="control" id="date" name="date" required>
                             </div>
                         </div>
                         <div>
@@ -49,14 +52,12 @@
                                 <label for="female">Female.</label>
                             </div>
                         </div>
-                        <button type="submit" id="">Send.</button>
-                        <button type="reset" id="">Reset</button>
+                        <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDayOfWeek();">Calculate Birthday</button></a>
                     </div>
                 </form>
             </div>
-            <div class="card-footer" id="footer">
+            <div class="card-footer bg-success text-white" id="footer">
                 <h2>Our spirits will forever expand to the great waters.</h2>
-                <p>We wish you well in your birthday..</p>
             </div>
         </div>
     </div>
