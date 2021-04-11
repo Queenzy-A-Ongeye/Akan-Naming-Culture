@@ -1,53 +1,17 @@
 body {
-  background: rgba(0, 0, 0, 0.6) url("aak.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-blend-mode: darken;
+  background-color: rgb(82, 28, 28);
+}
+img {
+  height: 100vh;
   width: 100%;
-  height: 700px;
-  /* background-image: linear-gradient(to top left,navajowhite, #ddd); */
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
-#kan {
-  align-items: center;
-  justify-content: center;
-  color: black;
+
+.overlay {
+  background-color: cadetblue;
   text-align: center;
+  text-decoration: chocolate;
+  font-style: italic;
 }
-.slide {
-  padding-top: 5px;
-  margin: 3px;
-  /* background: rgba(223, 216, 216, 0.514);
-  background-blend-mode: lighten; */
-  align-items: flex-start;
-}
-.input-field {
-  padding: 2px;
-  margin-top: 3px;
-  width: 100px;
-  /* border-top-style: hidden;
-  border-right-style: hidden;
-  border-left-style: hidden;
-  /* border-bottom-style: groove;
-  background-color: #eee; */
-  /* border-color: transparent;
-  border-bottom: 2px solid #1c87c9; */ 
-}
-#header {
-  background: rgba(223, 216, 216, 0.514);
-  background-blend-mode: lighten;
-  padding-bottom: 40px;
-  margin-top: 70px;
-}
-/* #footer {
-    background-color: rgb(63, 58, 58);
-    background-size: cover;
-    background-attachment: fixed;
-    background-blend-mode: darken;
-    height:100px
-} */
-/* #pan{
-    padding: 3px;
-    display: inline-block;
-} */

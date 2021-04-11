@@ -3,73 +3,80 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="styles.css">
-    <title>ghanian</title>
+    <meta name="viewport" content="width=device-width">
+    <title>Akan Names</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
-    <div class="container">
-        <div class="card" id="header">
-            <div class="card-title">
-                <div id="kan">
-                    <h1>Akan Naming Culture.</h1>
-                    <p>The Akan people of Ghana name their children after the day of the week they were born.</p>
-                    <p>These "day names" have further meanings concerning the soul and character of the person. </p>
+    <div class="container-fluid">
+        <div class="bg-light">
+            <div class="row">
+                <div class="col -md-6">
+                    <div class="overlay">
+                        <h1 class="" style="text-align: center;"><strong>Akan Names</strong></h1>
+                        <hr class="my -4">
+                        <img src="aak.jpg" alt="">
+                        <p class="" style="text-align: center;">
+                            The Akan people of Ghana name their children after the day of the week they were born.
+                        </p>
+
+                        <p>These "day names"have further meaning concerning the character of the person.</p>
+                        <p class="q -text text-center">what's your akan name?</p>
+                    </div>
                 </div>
             </div>
-            <div class="card-body">
-                <form class="my-form" onsubmit="return getAkanName()">
-                    <div class="slide">
-                        <div class="input-field">
-                            <label for="year">
-                                Year:
-                                <input id="year" type="number" name="year" placeholder="yy" value="" required>
-                            </label><br>
+            <div class="col-md-6 right">
+                <div class="panel col-sm-6 offset-sm-3">
+                    <form>
+                        <div class="form-group top-form">
+                            <label for="cemtury" class="labels">century</label>
+                            <input type="number" class="form-control" placeholder="Enter the century" id="century"
+                                required min="12" max="20">
                         </div>
-                        <div class="input-field">
-                            <label for="month">
-                                Month:
-                                <input id="month" type="number" name="month" placeholder="mm" value="" required>
-                            </label><br>
+                        <div class="form-group">
+                            <label for="year" class="labels">Year</label>
+                            <input type="number" placeholder="Enter the year" class="form-control" id="year" required
+                                min="0" max="99">
                         </div>
-                        <div class="input-field">
-                            <label for="dayOfTheMonth">
-                                Day:
-                                <input id="dayOfTheMonth" type="number" name="dayOfTheMonth" placeholder="dd" value=""
-                                    required>
-                            </label>
-                            <br>
+                        <div class="form-group">
+                            <label for="monthDay" class="labels">Month</label>
+                            <input type="number" placeholder="Enter the month of year" class="form-control" id="month"
+                                required min="1" max="12">
+
                         </div>
-                    </div>
-                    <label for="gender">
-                        <p>Please Select if you are male or female: </p>
-                        Male
-                        <input id="male-input" type="checkbox" name="gender" value="male" required><br>
-                        Female
-                        <input id="female-input" type="checkbox" name="gender" value="female" required>
+                        <div class="form-group">
+                            <label for="monthDay" class="labels">Day of the month</label>
+                            <input type="number" placeholder="Enter the day of the month" class="form-control"
+                                id="monthday" required min="1" max="31">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Select gender</label>
+                            <div class="col-sm-13">
+                                <select class="form-control " id="gender">
+                                    <option value=""></option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
+                            </div>
+                        </div>
 
-                    </label>
-                    <br><br>
-                    <input class="button1 bg-primary text-white" type="submit" name="" value="SEE YOUR AKAN NAME &#8594;">
-                    <br><br>
-                </form>
-                <form onsubmit="return clearInput()">
-                    <input class="button1 bg-primary text-white" type="submit" value="Try Again">
-                </form>
+                        <br>
+                        <a href="#result"><button type="button" name="button" class="btn btn-primary mn-2"
+                                onclick="checkDayOfMonth()">Submit</button></a>
+                        <h1 id="result"></h1>
+                    </form>
 
 
-                <h2 id=display-name><strong>Your Akan name is :</strong></h2>
-                <h1 id="result"></h1>
-            </div>
-            <div class="card-footer bg-success text-white" id="footer">
-                <h2>Our spirits will forever expand to the great waters.</h2>
+                </div>
             </div>
         </div>
+
+
     </div>
-    <script src="/js/app.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
