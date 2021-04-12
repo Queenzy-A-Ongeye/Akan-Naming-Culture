@@ -29,4 +29,4 @@ Inorder to acces the project in your local files, you can clone it in these simp
 ### Live site
 View [Live] (https://github.com/Queen-01/Akan-Naming-Culture.git)
 ### License
-This project is under the [MIT](license)license
+This project is under the [MIT](License)license
