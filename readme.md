@@ -12,7 +12,7 @@ Inorder to acces the project in your local files, you can clone it in these simp
 1. Open your terminal
 1. use this command to clone '$ git clone https://github.com/Queen-01/Akan-Naming-Culture.git
 1. This will clone the repository in your local folder
-##Behavior Driven Development
+**##Behavior Driven Development**
 |Behaviour   | Input     |  Output |
 |------------|:---------:|---------------------------------:|
 |Born on monday|century, year, month, date|name is kwado if male and Adwoa if female|
@@ -27,4 +27,4 @@ Inorder to acces the project in your local files, you can clone it in these simp
 ### Live site
 View [Live] (https://github.com/Queen-01/Akan-Naming-Culture.git)
 ### License
-This project is under the [MIT](license) license
+This project is under the [MIT](license)
